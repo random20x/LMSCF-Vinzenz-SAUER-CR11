@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.lg_con {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.box {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#i_login {
+    background-color: #152238;
+    color: white;
+}
+
+#i_register {
+    background-color: #17A2B8;
+    color: white;
+    text-decoration: none;
+}
+
+#reg {
+    background-color: #17A2B8;
+}
+
+.i_err {
+    color: red;
+}
+
+a #i_forgot {
+    color: #152238;
+}
+
+#wrong {
+    color: red;
+}
